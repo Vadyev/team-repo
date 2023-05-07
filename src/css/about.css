@@ -1,0 +1,8 @@
+.about-section {
+  background-color: aqua;
+  background-image: url(/img/about.jpg);
+  padding: 100px 100px;
+}
+.about-text {
+  color: black;
+}
