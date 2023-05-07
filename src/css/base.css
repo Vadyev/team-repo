@@ -1,0 +1,29 @@
+:root {
+  --background: #333335;
+  --accent-color: #ff3839;
+  --dark-color: #202020;
+  --light-color: #f8f8f8;
+  --main-white: #ffffff;
+  --text-color: #696969;
+}
+
+body {
+  font-family: sans-serif;
+  color: var(--text-color);
+  background-color: var(--main-white);
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+/* Header */
+
+.header {
+  background-color: var(--background);
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
