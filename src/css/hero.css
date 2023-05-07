@@ -1,6 +1,62 @@
-.hero-section {
-  background-color: blue;
+.hero {
+  background-color: var(--dark-color);
+  padding-top: 184px;
+  padding-bottom: 190px;
 }
-.hero-text {
-  color: yellow;
+
+.hero-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-white);
+  margin-bottom: 14px;
+}
+.subtitle-accent {
+  color: var(--accent-color);
+}
+.hero-title {
+  font-size: 70px;
+  line-height: 1.28;
+  letter-spacing: 0.03em;
+  margin: 0 auto 22px auto;
+  color: var(--main-white);
+  width: 790px;
+  text-align: center;
+}
+.hero-deskr {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 0 auto 30px auto;
+  color: var(--main-white);
+}
+.hero-list {
+  display: flex;
+  justify-content: center;
+  gap: 19px;
+}
+.accent-btn {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-white);
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 5px;
+}
+.hire-btn {
+  padding: 12px 61px;
+}
+.hero-second-btn {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-color);
+  padding: 12px 34px;
+  border: none;
+  border-radius: 5px;
 }
