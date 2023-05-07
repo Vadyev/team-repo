@@ -5,86 +5,62 @@
     <link rel="icon" type="image/svg+xml" href="/team-repo/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+      rel="stylesheet"
+    />
     
     <script type="module" crossorigin src="/team-repo/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/team-repo/assets/index-8534ca80.css">
+    <link rel="stylesheet" href="/team-repo/assets/index-37fd67e1.css">
   </head>
   <body>
-    <section class="about-section">
-  <p class="about-text">
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda ullam
-    quo nisi est quis, aperiam ea magni reiciendis dolores velit temporibus
-    possimus perspiciatis nobis, dignissimos maxime, illum dolore consectetur
-    voluptatem.
-  </p>
-</section>
-
     <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+  <!-- Header Section -->
+  <div class="header-container container">
+    <a href="./index.html" class="logo-link link"
+      ><svg width="50" height="53">
+        <use href="../img/icons.svg#icon-logo"></use></svg
+      >Canvas Lancer</a
+    >
+    <nav class="navigation">
+      <ul class="nav-list list">
+        <li><a href="" class="list-link link">About Us</a></li>
+        <li><a href="" class="list-link link">Home</a></li>
+        <li><a href="" class="list-link link">Services</a></li>
+        <li><a href="" class="list-link link">Portfolio</a></li>
+        <li><a href="" class="list-link link">Testimonials</a></li>
+        <li><a href="" class="list-link link">Faqs</a></li>
+      </ul>
+    </nav>
+    <button type="button" class="header-btn button">Contact Us</button>
+  </div>
 </header>
 
-
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/team-repo/assets/javascript-8dac5379.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
-
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
-      </ul>
-    </div>
-
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
-      <img
-        class="pic"
-        src="/team-repo/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
-      />
-    </div>
+    <section class="hero">
+  <div class="hero-container container">
+    <p class="hero-subtitle">
+      Welcome To <span class="subtitle-accent">Canavas Lancer</span>
+    </p>
+    <h1 class="hero-title">Designing the Future with Canvas Lancer</h1>
+    <p class="hero-deskr">
+      Lorem ipsum dolor sit amet consectetur. Aliquam quisque cursus proin
+      adipiscing quis diam. Eu fringilla elit commodo nec aliquet. Augue
+      pharetra nibh co
+    </p>
+    <ul class="hero-list list">
+      <li>
+        <button class="accent-btn hire-btn" type="button">Hire Us</button>
+      </li>
+      <li>
+        <button class="hero-second-btn" type="button">View Portfolio</button>
+      </li>
+    </ul>
   </div>
 </section>
 
